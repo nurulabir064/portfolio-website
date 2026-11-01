@@ -54,7 +54,6 @@ document.querySelectorAll("img[data-fallback]").forEach((img) => {
 document.getElementById("contact-form").addEventListener("submit", (e) => {
   e.preventDefault();
   document.getElementById("form-msg").classList.remove("hidden");
-  e.target.reset();
 });
 
 // 4. Footer year
